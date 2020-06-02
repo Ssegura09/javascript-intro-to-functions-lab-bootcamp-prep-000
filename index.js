@@ -9,5 +9,5 @@ function logShout (aWord) {
   console.log(aWord.toUpperCase( ));
 }
 function logWhisper (aWord) {
-  console.log(aWord.toUpperCase());
+  console.log(aWord.toLowerCase());
 }
