@@ -5,12 +5,9 @@ function whisper(string) {
 return string.toLowerCase()
 }
 console.log(whisper);
-function logShout (aWord) {
+function logShout (string) {
   console.log(aWord.toUpperCase( ));
 }
-function logWhisper (aWord) {
+function logWhisper (string) {
   console.log(aWord.toLowerCase());
-}
-function sayHiToGrandma(string){
-  return string.toLowerCase()
 }
